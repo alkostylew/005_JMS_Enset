@@ -10,6 +10,17 @@
 	    <artifactId>activemq-client</artifactId>
 	    <version>5.15.12</version>
 	</dependency>
-  
+	<dependency>
+	    <groupId>org.apache.activemq</groupId>
+	    <artifactId>activemq-broker</artifactId>
+	    <version>5.15.12</version>
+	    <scope>compile</scope>
+	</dependency>
+	<dependency>
+	    <groupId>org.apache.activemq</groupId>
+	    <artifactId>activemq-kahadb-store</artifactId>
+	    <version>5.15.12</version>
+	    <scope>runtime</scope>
+	</dependency>
   </dependencies>
 </project>
